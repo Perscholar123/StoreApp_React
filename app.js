@@ -30,7 +30,7 @@
 class Total extends React.Component {
   render() {
     const total = this.props.cart.reduce((accumulator, element) => {
-      return Math.round((accumulator += element.price));
+      return (accumulator += element.price);
     }, 0);
     return (
       <div>
@@ -170,7 +170,7 @@ class App extends React.Component {
             onChange={this.handleChange}
           />
           <br />
-          <br />
+          {/* <br /> */}
           <label htmlFor="price">Price: </label>
           <input
             id="price"
@@ -179,7 +179,7 @@ class App extends React.Component {
             onChange={this.handleChange}
           />
           <br />
-          <br />
+          {/* <br /> */}
           <label htmlFor="description">Description: </label>
           <input
             id="description"
@@ -188,7 +188,7 @@ class App extends React.Component {
             onChange={this.handleChange}
           />
           <br />
-          <br />
+          {/* <br /> */}
           <input type="submit" />
         </form>
         <div className="preview">

@@ -4,21 +4,25 @@
 /* color theme https://coolors.co/c5e0eb-919098-897c80-223843-a80874 */
 :root {
   --modern-powder-blue: #C5E0EB;
-  --blue-greige: #919098;
-  --grape-putty: #897C80;
-  --royal-midnight: #223843;
-  --dark-fuchsia: #A80874;
+  --blue-greige: #cfced6;
+  --grape-putty: #c0b2b6;
+  --royal-midnight: #99a6ad;
+  --dark-fuchsia: #993377;
 }
 
-/* * {
+* {
   border: 1px solid gold;
-} */
+} 
 
 
 body {
-  font-family: 'Thasadith', sans-serif;
+  /* font-family: 'Thasadith', sans-serif; */
+  font-family:'Times New Roman', Times, serif;
+  font-weight: bold;
   margin: 0;
-  background: var
+  background: var;
+  /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeXnKMUHuascg6QxNqzM3BiMhDdq6o75wMvg&usqp=CAU'); */
+  background-size: cover;
 }
 
 h1 {
